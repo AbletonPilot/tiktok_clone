@@ -4,7 +4,7 @@ import 'package:tiktok_clone/constants/gaps.dart';
 import 'package:tiktok_clone/constants/sizes.dart';
 import 'package:tiktok_clone/features/authentication/login_screen.dart';
 import 'package:tiktok_clone/features/authentication/widgets/auth_botton.dart';
-import 'package:tiktok_clone/features/authentication/email_screen.dart';
+import 'package:tiktok_clone/features/authentication/username_screen.dart';
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({super.key});
@@ -20,7 +20,7 @@ class SignUpScreen extends StatelessWidget {
     // Navigate to email sign-up screen
     Navigator.of(
       context,
-    ).push(MaterialPageRoute(builder: (context) => const EmailScreen()));
+    ).push(MaterialPageRoute(builder: (context) => const UsernameScreen()));
   }
 
   @override
